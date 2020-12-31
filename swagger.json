@@ -1,0 +1,29 @@
+    {
+        "swagger": "2.0",
+        "info": {
+            "version": "1.0.0",
+            "title": "Runtime Terror APIs",
+            "description": "API Project for Safe Home project presented in Xperiments 4.0"
+        },
+        "host": "localhost:5000",
+        "basePath": "/",
+        "consumes": [
+            "application/json"
+        ],
+        "produces": [
+            "application/json"
+        ],
+        "tags": [
+            {
+                "name": "Master",
+                "description": "Controller for Masters - City, Areas, Property Types"
+            },
+            {
+                "name": "Property",
+                "description": "Controller for Getting and Saving Property and Photos"
+            }
+        ],
+        "apis": [
+            "./controllers/*"
+        ]
+    }
